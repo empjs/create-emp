@@ -1,0 +1,46 @@
+{
+  "name": "create-emp",
+  "version": "0.0.1",
+  "description": "Create a new EMP project",
+  "homepage": "https://github.com/empjs/emp-next",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/empjs/create-emp"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "create-emp": "./dist/index.js"
+  },
+  "files": [
+    "template-*",
+    "dist"
+  ],
+  "scripts": {
+    "build": "modern build",
+    "dev": "modern build --watch",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@empjs/cli": "3.0.0-beta.4",
+    "@modern-js/module-tools": "^2.48.0",
+    "@types/node": "16.x",
+    "rslog": "^1.2.1",
+    "typescript": "^5.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
