@@ -1,3 +1,4 @@
+
 node_modules
 yarn-error.log
 dist
@@ -5,6 +6,5 @@ dist
 yarn.lock
 yarn-debug.lock
 .pnpm-debug.log
-projects/e-svga*
 .idea
 .emp-cache

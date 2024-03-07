@@ -24,7 +24,7 @@
     "create-emp": "./dist/index.js"
   },
   "files": [
-    "template-*",
+    "template",
     "dist"
   ],
   "scripts": {
@@ -34,7 +34,6 @@
   },
   "devDependencies": {
     "@clack/prompts": "^0.7.0",
-    "@empjs/cli": "3.0.0-beta.4",
     "@modern-js/module-tools": "^2.48.0",
     "@types/node": "16.x",
     "rslog": "^1.2.1",

@@ -81,8 +81,8 @@ export async function main() {
   const language = 'ts'
   checkCancel(language);
 
-  const srcFolder = path.join(packageRoot, `template-${framework}-${language}`);
-  const commonFolder = path.join(packageRoot, 'template-common');
+  const srcFolder = path.join(packageRoot,'template' ,`template-${framework}-${language}`);
+  const commonFolder = path.join(packageRoot, 'template', 'template-common');
   const distFolder = path.join(cwd, targetDir);
 
   copyFolder(commonFolder, distFolder, version);
@@ -105,7 +105,7 @@ function copyFolder(src: string, dist: string, version: string, name?: string) {
   };
 
   // Skip local files
-  const skipFiles = ['node_modules', 'dist'];
+  const skipFiles = ['node_modules', 'dist', 'pnpm-lock.yaml'];
 
   fs.mkdirSync(dist, { recursive: true });
 
