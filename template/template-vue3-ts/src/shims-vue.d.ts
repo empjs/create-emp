@@ -10,7 +10,7 @@ declare module '*.svg' {
   export default content
 }
 
-declare module '*.less' {
+declare module '*.scss' {
   const classes: {readonly [key: string]: string}
   export default classes
 }

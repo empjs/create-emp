@@ -1,4 +1,4 @@
-import App from './App.vue'
+import App from './jsx/App'
 import {createApp} from 'vue'
 const app = createApp(App)
 app.mount('#emp-root')

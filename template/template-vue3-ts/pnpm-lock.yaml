@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@empjs/cli':
-    specifier: ^3.0.0-beta.4
-    version: 3.0.0-beta.4(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
+    specifier: ^3.0.0-beta.6
+    version: 3.0.0-beta.6(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
   '@empjs/plugin-vue3':
     specifier: ^3.0.0-beta.3
     version: 3.0.0-beta.3(@babel/core@7.24.0)(typescript@5.3.3)(webpack@5.90.3)
@@ -1314,8 +1314,8 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@empjs/cli@3.0.0-beta.4(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3):
-    resolution: {integrity: sha512-IKjFMXHN8SnFj+TLbFcvz1xkmWbY9LZm7zFcPMY/CXDS7/KFAc2uIVSUg5MPPhrJQDd8pR0K6Dmv0MI16PaS2g==}
+  /@empjs/cli@3.0.0-beta.6(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3):
+    resolution: {integrity: sha512-P0GO1u7sr46GW2Xegzmurex1bu/MEiDF8iBA9Ddi+sMK+a2fqhvrKIvjYdXKPJD70fDboUJ62aa/96C26TjBZA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
     dependencies:
@@ -2932,7 +2932,7 @@ packages:
     resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       tapable: 2.2.1
     dev: true
 
@@ -5231,7 +5231,7 @@ packages:
       '@types/ws': 8.5.10
       ansi-html-community: 0.0.8
       bonjour-service: 1.2.1
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       colorette: 2.0.20
       compression: 1.7.4
       connect-history-api-fallback: 2.0.0
