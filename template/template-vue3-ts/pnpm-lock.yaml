@@ -11,7 +11,7 @@ dependencies:
 
 devDependencies:
   '@empjs/cli':
-    specifier: ^3.0.0-beta.6
+    specifier: ^3.0.0-beta.31
     version: 3.0.0-beta.6(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
   '@empjs/plugin-vue3':
     specifier: ^3.0.0-beta.3
