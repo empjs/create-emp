@@ -6,8 +6,9 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "@empjs/cli": "^3.0.0",
-    "@empjs/plugin-vue2": "^3.0.0-beta.1"
+    "@empjs/cli": "^3.1.10",
+    "@empjs/share": "^3.1.10",
+    "@empjs/plugin-vue2": "^3.0.0"
   },
   "dependencies": {
     "vue": "^2.7.14",
