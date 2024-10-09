@@ -8,7 +8,7 @@ export default defineConfig(store => {
       pluginRspackEmpShare({
         name: 'vue2Project',
         empRuntime: {
-          runtimeLib: `https://unpkg.yy.com/@empjs/share@3.1.8/output/sdk.js`,
+          runtimeLib: `https://unpkg.com/@empjs/share@3.1.10/output/sdk.js`,
           shareLib: {
             vue: 'Vue@https://unpkg.com/vue@2.7.14/dist/vue.min.js',
             vuex: `Vuex@https://unpkg.com/vuex@3.6.2/dist/vuex.min.js`,
