@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@empjs/cli':
-    specifier: ^3.1.10
-    version: 3.1.10(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
+    specifier: ^3.1.11
+    version: 3.1.11(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
   '@empjs/plugin-vue2':
     specifier: ^3.0.0
     version: 3.0.0(@babel/core@7.24.0)(css-loader@6.10.0)(react-dom@18.3.1)(react@18.3.1)(webpack@5.90.3)
@@ -257,8 +257,8 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@empjs/cli@3.1.10(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3):
-    resolution: {integrity: sha512-sCPA7Oc60BdIB1SDEcarGDNREcvSiJiWtKJR+hc9LOoAlqxM9XUI/AgAJY+9rOB1/sZWIsvFUzqk7vcBifeyMg==}
+  /@empjs/cli@3.1.11(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3):
+    resolution: {integrity: sha512-+rAvNCyBKuPdyjBaM6WaNoHU6bJbJ4VGDgiTG3LUDmo3G+kyMyKnqA6jc1EctN9WsKQvxOY72Zpino2fWj4o7Q==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     dependencies:
@@ -277,7 +277,7 @@ packages:
       glob: 10.4.5
       gzip-size: 7.0.0
       html-webpack-plugin: 5.6.0(@rspack/core@1.0.8)(webpack@5.90.3)
-      jiti: 2.3.3
+      jiti: 2.0.0
       less-loader: 12.2.0(@rspack/core@1.0.8)(less@4.2.0)(webpack@5.90.3)
       open: 10.1.0
       sass-embedded: 1.79.4
@@ -3662,8 +3662,8 @@ packages:
       supports-color: 8.1.1
     dev: true
 
-  /jiti@2.3.3:
-    resolution: {integrity: sha512-EX4oNDwcXSivPrw2qKH2LB5PoFxEvgtv2JgwW0bU858HoLQ+kutSvjLMUqBd0PeJYEinLWhoI9Ol0eYMqj/wNQ==}
+  /jiti@2.0.0:
+    resolution: {integrity: sha512-CJ7e7Abb779OTRv3lomfp7Mns/Sy1+U4pcAx5VbjxCZD5ZM/VJaXPpPjNKjtSvWQy/H86E49REXR34dl1JEz9w==}
     hasBin: true
     dev: true
 
@@ -3764,7 +3764,7 @@ packages:
       escape-html: 1.0.3
       fresh: 0.5.2
       http-assert: 1.5.0
-      http-errors: 1.6.3
+      http-errors: 1.8.1
       is-generator-function: 1.0.10
       koa-compose: 4.1.0
       koa-convert: 2.0.0

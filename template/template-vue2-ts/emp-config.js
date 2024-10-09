@@ -2,6 +2,7 @@ import {defineConfig} from '@empjs/cli'
 import vue from '@empjs/plugin-vue2'
 import {pluginRspackEmpShare} from '@empjs/share'
 export default defineConfig(store => {
+  console.log(111)
   return {
     plugins: [
       vue(),
@@ -25,7 +26,7 @@ export default defineConfig(store => {
       title: 'EMP3 vue2 project',
     },
     server: {port: 9002},
-    appEntry: 'main.js',
+    appEntry: 'main.js'
   }
 })
  

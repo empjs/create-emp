@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "devDependencies": {
-    "@empjs/cli": "^3.1.10",
+    "@empjs/cli": "^3.1.11",
     "@empjs/plugin-vue3": "^3.0.1"
   },
   "dependencies": {

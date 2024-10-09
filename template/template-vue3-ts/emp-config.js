@@ -14,10 +14,6 @@ export default defineConfig(({mode, env}) => {
           requiredVersion: '^3',
         },
       },
-    },
-    debug: {
-      clearLog: false,
-      showRsconfig: false,
-    },
+    }
   }
 })
