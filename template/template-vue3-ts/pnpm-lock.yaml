@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^3.1.11
     version: 3.1.11(less@4.2.0)(typescript@5.3.3)(webpack@5.90.3)
   '@empjs/plugin-vue3':
-    specifier: ^3.0.1
-    version: 3.0.1(@babel/core@7.24.0)(typescript@5.3.3)(vue-template-compiler@2.7.16)(webpack@5.90.3)
+    specifier: ^3.1.11
+    version: 3.1.11(@babel/core@7.24.0)(typescript@5.3.3)(vue-template-compiler@2.7.16)(webpack@5.90.3)
 
 packages:
 
@@ -44,7 +44,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/highlight': 7.25.7
-      picocolors: 1.0.0
+      picocolors: 1.1.0
     dev: true
 
   /@babel/compat-data@7.23.5:
@@ -420,8 +420,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@empjs/plugin-vue3@3.0.1(@babel/core@7.24.0)(typescript@5.3.3)(vue-template-compiler@2.7.16)(webpack@5.90.3):
-    resolution: {integrity: sha512-ugDcoxyubND+R3fzkpmWbAF0sCmqmXbwQRDqlEsphaD/fmU2m4SoyE7ZNznAbwNJ18emWg5nqCNsZVwzGa1sIQ==}
+  /@empjs/plugin-vue3@3.1.11(@babel/core@7.24.0)(typescript@5.3.3)(vue-template-compiler@2.7.16)(webpack@5.90.3):
+    resolution: {integrity: sha512-5k+4F/YZHdnF93JfHgKtPfFjKDqiiS9ufdmj+bPqO+tE8hlZ8SAly8ZqFYTCwPbDoLQuizF949Y4F4dtlDpKMg==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@babel/preset-typescript': 7.25.7(@babel/core@7.24.0)
@@ -1053,7 +1053,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/code-frame': 7.24.7
+      '@babel/code-frame': 7.25.7
       '@babel/core': 7.24.0
       '@babel/helper-module-imports': 7.25.7
       '@babel/helper-plugin-utils': 7.25.7

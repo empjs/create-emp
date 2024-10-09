@@ -6,7 +6,7 @@
   "type": "module",
   "devDependencies": {
     "@empjs/cli": "^3.1.11",
-    "@empjs/plugin-vue3": "^3.0.1"
+    "@empjs/plugin-vue3": "^3.1.11"
   },
   "dependencies": {
     "vue": "^3.4.20"
