@@ -14,10 +14,10 @@ export default defineConfig(store => {
         },
       }),
     ],
-    // build: {
-    //   polyfill: {
-    //     entryCdn: `https://unpkg.com/@empjs/polyfill@0.0.1/dist/es.js`,
-    //   },
-    // },
+    build: {
+      polyfill: {
+        entryCdn: `https://unpkg.com/@empjs/polyfill@0.0.1/dist/es.js`,
+      },
+    },
   }
 })

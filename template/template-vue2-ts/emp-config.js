@@ -2,7 +2,6 @@ import {defineConfig} from '@empjs/cli'
 import vue from '@empjs/plugin-vue2'
 import {pluginRspackEmpShare} from '@empjs/share'
 export default defineConfig(store => {
-  console.log(111)
   return {
     plugins: [
       vue(),
