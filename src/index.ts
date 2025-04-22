@@ -60,6 +60,8 @@ export async function main() {
     options: [
       { value: 'react', label: 'React' },
       { value: 'vue3', label: 'Vue 3' },
+      { value: 'react-mf', label: 'React MF' },
+      { value: 'vue3-mf', label: 'Vue 3 MF' },
       { value: 'vue2', label: 'Vue 2' },
       // { value: 'lit', label: 'Lit' },
       // { value: 'preact', label: 'Preact' },

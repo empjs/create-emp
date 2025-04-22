@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "devDependencies": {
-    "@empjs/cli": "3.6.0",
-    "@empjs/plugin-vue3": "^3.1.11",
-    "@empjs/share": "^3.1.10"
+    "@empjs/cli": "^3.1.11",
+    "@empjs/plugin-vue3": "^3.1.11"
   },
   "dependencies": {
     "vue": "^3.4.20"
