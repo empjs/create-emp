@@ -1,18 +1,24 @@
 import {defineConfig} from '@empjs/cli'
 import ReactPlugin from '@empjs/plugin-react'
-import {pluginRspackEmpShare} from '@empjs/share'
+import { externalReact, pluginRspackEmpShare } from '@empjs/share/rspack'
 export default defineConfig(store => {
   return {
     plugins: [
       ReactPlugin(),
       pluginRspackEmpShare({
+        name: 'app',
         empRuntime: {
-          runtimeLib: `https://unpkg.com/@empjs/share@3.1.5/output/sdk.js`,
-          frameworkLib: `https://unpkg.com/@empjs/libs-18@0.0.1/dist`,
-          frameworkGlobal: 'EMP_ADAPTER_REACT',
-          framework: 'react',
+            runtime: {
+                lib: `https://unpkg.yy.com/@empjs/share@3.6.0/output/sdk.js`,
+            },
+            framework: {
+                global: 'EMP_ADAPTER_REACT',
+                libs: [`https://unpkg.yy.com/@empjs/cdn-react@0.18.0/dist/reactRouter.${process.env.NODE_ENV}.umd.js`],
+            },
+            setExternals:externalReact,
         },
-      }),
+        manifest: true
+    })
     ],
     build: {
       polyfill: {
