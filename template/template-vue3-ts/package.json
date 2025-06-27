@@ -1,23 +1,23 @@
 {
-  "name": "vue-3-base",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "@empjs/cli": "^3.1.11",
-    "@empjs/plugin-vue3": "^3.1.11"
-  },
-  "dependencies": {
-    "vue": "^3.4.20"
-  },
-  "scripts": {
-    "dev": "emp dev",
-    "build": "emp build",
-    "start": "emp serve",
-    "stat": "emp build --analyze",
-    "emp": "emp"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "vue-3-base",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"devDependencies": {
+		"@empjs/cli": "3.8.0",
+		"@empjs/plugin-vue3": "^3.1.11"
+	},
+	"dependencies": {
+		"vue": "^3.4.20"
+	},
+	"scripts": {
+		"dev": "emp dev",
+		"build": "emp build",
+		"start": "emp serve",
+		"stat": "emp build --analyze",
+		"emp": "emp"
+	},
+	"author": "",
+	"license": "ISC"
 }

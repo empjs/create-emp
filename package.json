@@ -1,6 +1,6 @@
 {
   "name": "create-emp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Create a new EMP project",
   "homepage": "https://github.com/empjs/emp-next",
   "repository": {
@@ -37,7 +37,8 @@
     "@modern-js/module-tools": "^2.48.0",
     "@types/node": "16.x",
     "rslog": "^1.2.1",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "@empjs/biome-config": "^2"
   },
   "publishConfig": {
     "access": "public"
